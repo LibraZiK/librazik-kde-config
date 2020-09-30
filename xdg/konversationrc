@@ -1,0 +1,19 @@
+
+
+[Channel 0]
+EnableNotifications=true
+Name=#librazik
+Password=
+
+
+
+[Server 0]
+BypassProxy=false
+Port=8001
+SSLEnabled=false
+Server=chat.freenode.net
+
+[ServerGroup 0]
+Name=freenode
+ServerList=Server 0
+AutoJoinChannels=Channel 0

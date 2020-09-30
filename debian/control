@@ -1,0 +1,21 @@
+Source: librazik-kde-config
+Section: x11
+Priority: optional
+Maintainer: Équipe LibraZiK <librazik@tuxfamily.org>
+Uploaders: Olivier Humbert <trebmuh@tuxfamily.org>
+Standards-Version: 4.3.0
+Build-Depends: debhelper (>= 12)
+Homepage: https://librazik.tuxfamily.org/
+
+Package: librazik-kde-config
+Architecture: all
+Depends:
+ librazik-theme-kde,
+ libkf5config-bin,
+ ${misc:Depends}
+Description: LibraZiK 3 - KDE Plasma configuration
+ This package contains the LibraZiK 3 configuration for KDE Plasma desktop.
+ .
+ Documentation page : https://librazik.tuxfamily.org/doc3/paquets
+ .
+ LibraZiK audio studio package 2020 ©

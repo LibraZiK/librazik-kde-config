@@ -1,0 +1,35 @@
+#!/bin/sh
+
+# Ce fichier a été écrit par Olivier Humbert et Mathieu Picot pour le projet de studio audio LibraZiK
+# Licence: GNU-GPL-3
+#
+# This file has been written by Olivier Humbert for the LibraZiK audio studio project
+# License: GNU-GPL-3
+#
+# Copyright: Olivier Humbert <trebmuh@tuxfamily.org> 2020
+#            Mathieu Picot <picotmathieu@gmail.com> 2020
+
+set -e
+
+case "$1" in
+    configure)
+
+    # set the SDDM (login) theme to Librazik3
+
+    kwriteconfig5 --file /etc/sddm.conf --group Theme --key Current Librazik3
+    kwriteconfig5 --file /etc/sddm.conf --group Theme --key CursorTheme breeze_cursors
+
+    ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+    ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+#DEBHELPER#
+
+exit 0

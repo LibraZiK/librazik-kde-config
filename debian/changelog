@@ -1,0 +1,17 @@
+librazik-kde-config (3.01) buster; urgency=medium
+
+  * Reconstruction avec pbuilder pour LibraZiK-3.
+    - correction de l'empaquetage.
+  * debian/control :
+    - passage de "librazik-kde-theme" à "librazik-theme-kde".
+
+ -- Olivier Humbert <trebmuh@tuxfamily.org>  Tue, 29 Sep 2020 00:05:58 +0200
+
+librazik-kde-config (3.00) buster; urgency=medium
+
+  * Construction initiale avec pbuilder pour LibraZiK-3.
+    - use librazik kde theme
+    - use kwin specifications especially for windows decorations
+    - connect konversation directly to freenode #librazik
+
+ -- Olivier Humbert <trebmuh@tuxfamily.org>  Mon, 28 Sep 2020 18:05:44 +0200
