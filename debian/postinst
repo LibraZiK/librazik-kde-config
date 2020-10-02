@@ -9,10 +9,11 @@
 # Copyright: Olivier Humbert <trebmuh@tuxfamily.org> 2020
 #            Mathieu Picot <picotmathieu@gmail.com> 2020
 
-set -e
-
 case "$1" in
     configure)
+    # remove alternative for plasma5 wallpaper because it takes priority
+    # and prevents to use the wanted wallpaper
+    update-alternatives --remove-all desktop-plasma5-wallpaper
 
     # set the SDDM (login) theme to Librazik3
 
