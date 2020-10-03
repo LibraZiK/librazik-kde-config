@@ -6,13 +6,10 @@ Rows=1
 BorderActivate=3
 LayoutMode=1
 
-[MouseBindings]
-CommandAllKey=Meta
-
 [Windows]
 ElectricBorders=1
 
 [org.kde.kdecoration2]
-ButtonsOnLeft=MSF
-ButtonsOnRight=HIAX
+ButtonsOnLeft=SF
+ButtonsOnRight=HIX
 theme[$d]
