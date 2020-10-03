@@ -1,3 +1,10 @@
+librazik-kde-config (3.02) buster; urgency=medium
+
+  * Reconstruction avec pbuilder pour LibraZiK-3.
+    - améliorations.
+
+ -- Olivier Humbert <trebmuh@tuxfamily.org>  Sat, 03 Oct 2020 16:38:13 +0200
+
 librazik-kde-config (3.01) buster; urgency=medium
 
   * Reconstruction avec pbuilder pour LibraZiK-3.
