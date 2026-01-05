@@ -6,7 +6,7 @@
 # This file has been written by Olivier Humbert for the LibraZiK audio studio project
 # License: GNU-GPL-3
 #
-# Copyright: Olivier Humbert <trebmuh@tuxfamily.org> 2020
+# Copyright: Olivier Humbert <trebmuh@librazik.org> 2020
 #            Mathieu Picot <picotmathieu@gmail.com> 2020
 
 case "$1" in
